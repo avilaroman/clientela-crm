@@ -14,6 +14,27 @@ If you found a security bug, do *NOT* use the GitHub issue tracker. Send an emai
 
 * Move to Rails 3.2.x
 
+## Setup development environment
+
+### Requirements
+
+* Ruby 1.9.3
+* PostgreSQL
+* Sphinx
+
+You can use your regular development environment but Vagrant usage is preferred. If you don't have any idea of what Vagrant is please read [http://www.vagrantup.com/](http://www.vagrantup.com/) and be happy.
+
+After installing Vagrant you can run:
+
+    vagrant up
+    vagrant ssh
+    bundle install
+    rake db:create:all
+    rake db:schema:load
+    script/rails server
+    
+and access http://localhost:3000 on your browser.
+
 ## Additional information
 
 ### Contributors
