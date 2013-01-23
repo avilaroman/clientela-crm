@@ -37,6 +37,12 @@ After installing Vagrant you can run:
     
 and access http://localhost:3000 on your browser.
 
+## Known issues
+
+### spec/controllers/reports_controller_spec.rb:14 fails
+
+Run `compass compile` and try again.
+
 ## Additional information
 
 ### Contributors
