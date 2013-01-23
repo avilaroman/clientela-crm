@@ -33,7 +33,7 @@ group :development, :test do
   gem "hpricot", ">= 0.8.2"
   gem "rspec-rails", "~> 2.7"
   gem "remarkable_activerecord", ">= 4.0.0.alpha4"
-  gem 'resque_unit', '0.3.2'
+  gem 'resque_unit', '0.4.4'
   gem "jasmine", "1.0.1.1"
   gem 'simplecov', '0.6.1', :require => false
   gem 'webrat', ">= 0.7.1"
