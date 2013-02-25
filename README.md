@@ -1,6 +1,6 @@
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/Helabs/clientela-crm)
 
-## Clientela
+## Clientela [![Build Status](https://travis-ci.org/Helabs/clientela-crm.png?branch=master)](https://travis-ci.org/Helabs/clientela-crm)
 
 Clientela is full-featured CRM web application written in Ruby on Rails. It runs smoothly using Heroku and Amazon S3.
 
