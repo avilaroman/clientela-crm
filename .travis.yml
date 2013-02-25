@@ -1,0 +1,8 @@
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq sphinxsearch
+before_script:
+  - bundle exec rake db:create:all
+  - bundle exec rake db:schema:load
+rvm:
+  - 1.9.3
