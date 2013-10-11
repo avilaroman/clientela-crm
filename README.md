@@ -4,6 +4,10 @@
 
 Clientela is full-featured CRM web application written in Ruby on Rails. It runs smoothly using Heroku and Amazon S3.
 
+## Unmaintained repository
+
+This repository is unmaintained.
+
 ## Information
 
 ### Bug reports
@@ -34,7 +38,7 @@ After installing Vagrant you can run:
     rake db:create:all
     rake db:schema:load
     script/rails server
-    
+
 and access http://localhost:3000 on your browser.
 
 ## Known issues
