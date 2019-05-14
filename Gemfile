@@ -22,7 +22,7 @@ gem 'google_visualr', '2.0.6'
 gem 'cancan', '1.6.7'
 gem 'resque', '1.10.0'
 gem 'faker', '1.0.1'
-gem 'aws-sdk', '1.6.9'
+gem 'aws-sdk',
 gem 'thinking-sphinx', '2.0.11'
 gem 'flying-sphinx',   '0.8.4'
 
