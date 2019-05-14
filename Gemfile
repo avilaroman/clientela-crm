@@ -23,7 +23,7 @@ gem 'cancan', '1.6.7'
 gem 'resque', '1.10.0'
 gem 'faker', '1.0.1'
 
-gem 'aws-sdk', '1.6.9'
+
 gem 'flying-sphinx', '0.8.4'
 gem 'thinking-sphinx', '2.0.11'
 
